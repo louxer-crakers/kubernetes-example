@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test
+  namespace: test
+data:
+  s3: "bucket-test"
+  index.html: |
+    <h1>test uji coba</h1>
+    <p>1 2 3</p>
